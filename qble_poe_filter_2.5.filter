@@ -1,0 +1,1406 @@
+﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+# # Start Filter ##
+
+Show # Shaper's Orb: Upgrades a map by five tiers (Atlas Of Worlds)
+    Class Quest Items
+	BaseType "Shaper's Orb"
+    SetTextColor 255 255 255
+    SetBackgroundColor 33 163 33
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSound 4 300
+	
+Show # Cartographer's Sextant White Maps (Atlas Of Worlds)
+	BaseType "Apprentice Cartographer's Sextant"
+    SetTextColor 33 163 33
+    SetBackgroundColor 255 255 255
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSound 8 300
+	
+Show # Cartographer's Sextant Yellow Maps (Atlas Of Worlds)
+	BaseType "Journeyman Cartographer's Sextant"
+    SetTextColor 33 163 33
+    SetBackgroundColor 255 255 119
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSound 8 300
+	
+Show # Cartographer's Sextant Red Maps (Atlas Of Worlds)
+	BaseType "Master Cartographer's Sextant"
+    SetTextColor 33 163 33
+    SetBackgroundColor 242 111 114
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+Show # Essences & Co
+    Class "Currency"
+    BaseType "Whispering Essence of Hatred" "Muttering Essence of Hatred" "Weeping Essence of Hatred" "Wailing Essence of Hatred" "Screaming Essence of Hatred" "Shrieking Essence of Hatred" "Deafening Essence of Hatred" "Whispering Essence of Woe" "Muttering Essence of Woe" "Weeping Essence of Woe" "Wailing Essence of Woe" "Screaming Essence of Woe" "Shrieking Essence of Woe" "Deafening Essence of Woe" "Whispering Essence of Greed" "Muttering Essence of Greed" "Weeping Essence of Greed" "Wailing Essence of Greed" "Screaming Essence of Greed" "Shrieking Essence of Greed" "Deafening Essence of Greed" "Whispering Essence of Contempt" "Muttering Essence of Contempt" "Weeping Essence of Contempt" "Wailing Essence of Contempt" "Screaming Essence of Contempt" "Shrieking Essence of Contempt" "Deafening Essence of Contempt" "Muttering Essence of Sorrow" "Weeping Essence of Sorrow" "Wailing Essence of Sorrow" "Screaming Essence of Sorrow" "Shrieking Essence of Sorrow" "Deafening Essence of Sorrow" "Muttering Essence of Anger" "Weeping Essence of Anger" "Wailing Essence of Anger" "Screaming Essence of Anger" "Shrieking Essence of Anger" "Deafening Essence of Anger" "Muttering Essence of Torment" "Weeping Essence of Torment" "Wailing Essence of Torment" "Screaming Essence of Torment" "Shrieking Essence of Torment" "Deafening Essence of Torment" "Muttering Essence of Fear" "Weeping Essence of Fear" "Wailing Essence of Fear" "Screaming Essence of Fear" "Shrieking Essence of Fear" "Deafening Essence of Fear" "Weeping Essence of Suffering" "Wailing Essence of Suffering" "Screaming Essence of Suffering" "Shrieking Essence of Suffering" "Deafening Essence of Suffering" "Weeping Essence of Rage" "Wailing Essence of Rage" "Screaming Essence of Rage" "Shrieking Essence of Rage" "Deafening Essence of Rage" "Weeping Essence of Wrath" "Wailing Essence of Wrath" "Screaming Essence of Wrath" "Shrieking Essence of Wrath" "Deafening Essence of Wrath" "Weeping Essence of Doubt" "Wailing Essence of Doubt" "Screaming Essence of Doubt" "Shrieking Essence of Doubt" "Deafening Essence of Doubt" "Wailing Essence of Anguish" "Screaming Essence of Anguish" "Shrieking Essence of Anguish" "Deafening Essence of Anguish" "Wailing Essence of Loathing" "Screaming Essence of Loathing" "Shrieking Essence of Loathing" "Deafening Essence of Loathing" "Wailing Essence of Spite" "Screaming Essence of Spite" "Shrieking Essence of Spite" "Deafening Essence of Spite" "Wailing Essence of Zeal" "Screaming Essence of Zeal" "Shrieking Essence of Zeal" "Deafening Essence of Zeal" "Screaming Essence of Misery" "Shrieking Essence of Misery" "Deafening Essence of Misery" "Screaming Essence of Dread" "Shrieking Essence of Dread" "Deafening Essence of Dread" "Screaming Essence of Scorn" "Shrieking Essence of Scorn" "Deafening Essence of Scorn" "Screaming Essence of Envy" "Shrieking Essence of Envy" "Deafening Essence of Envy" "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Remnant of Corruption" "Apprentice Cartographer's Seal" "Journeyman Cartographer's Seal" "Master Cartographer's Seal" "Unshaping Orb"
+    SetTextColor 0 0 0
+    SetBackgroundColor 180 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 4 100
+
+Show # Normal Talismans
+    Rarity = Normal
+    Class "Amulet"
+    BaseType "Talisman"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 175 96 37
+    PlayAlertSound 1 100
+
+Show # Magic Talismans
+    Rarity = Magic
+    Class "Amulet"
+    BaseType "Talisman"
+    SetTextColor 0 0 0
+    SetBackgroundColor 30 144 255
+    SetBorderColor 175 96 37
+    PlayAlertSound 1 30
+
+Show # Rare Talismans
+    Rarity = Rare
+    Class "Amulet"
+    BaseType "Talisman"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 0
+    SetBorderColor 175 96 37
+    PlayAlertSound 1 30
+
+Show # Unique Talismans
+    Rarity = Unique
+    Class "Amulet"
+    BaseType "Talisman"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 175 96 37
+    PlayAlertSound 1 300
+
+Show # 2.5 Breach Currency
+    Class "Currency"
+    BaseType "Splinter of"	
+	
+Show # 2.2 Perandus Currency
+    Class "Currency"
+    BaseType "Perandus"
+
+Show # 2.3 Prophecy Currency
+    Class "Currency"
+    BaseType "Prophecy"
+    PlayAlertSound 8 300
+
+Show
+    Class "Currency"
+    BaseType "Silver Coin"
+    SetTextColor 0 0 0
+    SetBackgroundColor 190 178 135
+    SetBorderColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 8 300
+
+Show # Uber Lab key
+    BaseType "Offering to the Goddess"
+    SetTextColor 0 0 0
+    SetBackgroundColor 180 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 4 300
+
+Show
+    Class "Labyrinth"
+    SetTextColor 74 230 58
+    SetBorderColor 74 230 58
+    SetFontSize 40
+
+Show # Unique Jewels
+    Rarity = Unique
+    BaseType "Crimson Jewel" "Cobalt Jewel" "Viridian Jewel"
+    SetBorderColor 98 0 255
+    SetFontSize 45
+    PlayAlertSound 1 300
+
+Show # Rare Jewels
+    Rarity = Rare
+    BaseType "Crimson Jewel" "Cobalt Jewel" "Viridian Jewel"
+    SetBorderColor 98 0 255
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+Show # Jewels
+    BaseType "Crimson Jewel" "Cobalt Jewel" "Viridian Jewel"
+    SetBorderColor 98 0 255
+    SetFontSize 45
+
+Show # 2.5 Breachlords' arena
+    Class "Map Fragments"
+    BaseType "Xoph's Breachstone" "Tul's Breachstone" "Esh's Breachstone" "Uul-Netol's Breachstone" "Chayula's Breachstone"
+    SetTextColor 0 0 0
+    SetBackgroundColor 180 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 4 300
+	
+Show # Pale Council Fragments
+    Class "Map Fragments"
+    BaseType "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key"
+    SetTextColor 0 0 0
+    SetBackgroundColor 180 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 4 300
+
+Show # Maps: Unique Maps
+    Rarity = Unique
+    Class "Maps"
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+	
+Show # The Shaper fragments (Atlas Of Worlds)
+    Class "Map Fragments"
+    BaseType "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra"
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Maps Section
+Show # Maps: Tier 16 - Level 83
+    Class "Maps"
+    BaseType "Lair of the Hydra" "Phoenix" "Maze of the Minotaur" "Pit of the Chimera" "Vaal Temple"
+    SetBorderColor 255 255 0
+	SetTextColor 0 0 0
+	SetBackgroundColor 242 111 114
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # Maps: Tier 15 - Level 82
+    Class "Maps"
+    DropLevel >= 82
+    SetTextColor 0 0 0
+    SetBackgroundColor 242 111 114
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+
+Show # Maps: Tier 14 - Level 81
+    Class "Maps"
+    DropLevel >= 81
+    SetTextColor 0 0 0
+    SetBackgroundColor 242 111 114
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+
+Show # Maps: Tier 13 - Level 80
+    Class "Maps"
+    DropLevel >= 80
+    SetTextColor 0 0 0
+    SetBackgroundColor 242 111 114
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 12 - Level 79
+    Class "Maps"
+    DropLevel >= 79
+    SetTextColor 0 0 0
+    SetBackgroundColor 242 111 114
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 11 - Level 78
+    Class "Maps"
+	DropLevel >= 78
+    SetTextColor 0 0 0
+    SetBackgroundColor 242 111 114
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 10 - Level 77
+    Class "Maps"
+    DropLevel >= 77
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 119
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 9 - Level 76
+    Class "Maps"
+    DropLevel >= 76
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 119
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 8 - Level 75
+    Class "Maps"
+    DropLevel >= 75
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 119
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 7 - Level 74
+    Class "Maps"
+    DropLevel >= 74
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 119
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 6 - Level 73
+    Class "Maps"
+    DropLevel >= 73
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 119
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 5 - Level 72
+    Class "Maps"
+    DropLevel >= 72
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 4 - Level 71
+    Class "Maps"
+    DropLevel >= 71
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 3 - Level 70
+    Class "Maps"
+	DropLevel >= 70
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 2 - Level 69
+    Class "Maps"
+    DropLevel >= 69
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+	
+Show # Maps: Tier 1 - Level 68
+    Class "Maps"
+    DropLevel < 69
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 300
+
+# Section: Divination Cards Section
+
+Show # Divination Cards Tier 1
+    Class "Card"
+    BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Brittle Emperor" "The Dragon's Heart" "The Artist" "Wealth and Power" "Abandoned Wealth" "Bowyer's Dream" "The Celestial Justicar" "The Ethereal" "The Formless Sea" "The Harvester" "The Hunger" "The King's Heart" "Last Hope" "The Last One Standing" "The Offering" "Pride Before the Fall" "The Queen" "The Thaumaturgist" "Lucky Deck" "The Enlightened"
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # Divination Cards
+    Class "Card"
+    SetBorderColor 153 255 255
+    SetFontSize 45
+    PlayAlertSound 3 300
+
+# Section: Currency Section
+
+Show # Currency Tier 0
+    BaseType "Mirror of Kalandra"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 128 255
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # Currency Tier 1
+    BaseType "Exalted Orb" "Eternal Orb" "Divine Orb"
+    SetTextColor 255 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 255 0 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # Currency Tier 2
+    BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Orb of Fusing" "Orb of Scouring" "Vaal Orb" "Blessed Orb" "Cartographer's Chisel" "Orb of Regret" "Orb of Chance" "Glassblower's Bauble"
+    SetTextColor 217 162 102
+    SetBorderColor 231 180 120
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+Show # Currency Tier 3
+    BaseType "Jeweller's Orb" "Chromatic Orb" "Blacksmith's Whetstone" "Orb of Alteration" "Orb of Augmentation" "Orb of Transmutation" "Armourer's Scrap"
+    SetTextColor 232 209 181
+    SetBorderColor 232 209 181
+    SetFontSize 45
+
+Show # Currency Tier 4
+    BaseType "Portal Scroll" "Scroll of Wisdom"
+    SetTextColor 232 209 181
+
+# Section: Gems Section
+
+Show # Gems Drop Only worth picking
+    BaseType "Vaal Breach" "Empower" "Enlighten" "Enhance" "Portal" "Vaal Haste"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 175 96 37
+    SetFontSize 40
+    PlayAlertSound 1 100
+
+Show # Gems with high quality
+    Quality >= 15
+    Class "Gem"
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 200 0
+    SetFontSize 45
+    PlayAlertSound 1 100
+
+Show # Gems with quality
+    Quality >= 5
+    Class "Gem"
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 128
+    SetFontSize 45
+	
+Show # Vaal Gems
+    Class "Gem"
+	BaseType "Vaal"
+    SetBackgroundColor 0 0 0
+    SetBorderColor 210 0 0
+	
+Show # Gems worth picking
+    Class "Gem"
+	BaseType "Immortal Call" "Cast when Damage Taken Support" "Increased Duration" "Added Chaos"
+    SetBackgroundColor 0 0 0
+    SetBorderColor 208 32 144
+
+# Section: Atizi & Uber Atziri Section
+
+Show # Uber Atziri most valuable fragment
+    Class "Map Fragments"
+    BaseType "Mortal Hope" "Mortal Ignorance"
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # Normal Atziri most valuable fragment
+    Class "Map Fragments"
+    BaseType "Sacrifice at Midnight"
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # Normal & Uber Atziri fragments
+    Class "Map Fragments"
+    SetTextColor 0 0 0
+    SetBackgroundColor 231 180 120
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSound 2 100
+
+Show # Fishing Rods
+    Class "Fishing Rods"
+    SetTextColor 255 128 255
+    SetBorderColor 255 128 255
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Links Section
+
+Show # 5Links Normal Items
+    Rarity = Normal
+    LinkedSockets = 5
+    SetTextColor 255 255 255
+    SetBackgroundColor 20 20 20
+    SetBorderColor 255 255 255
+    SetFontSize 42
+    PlayAlertSound 1 300
+
+Show # 5Links Magic Items
+    Rarity = Magic
+    LinkedSockets = 5
+    SetTextColor 136 136 255
+    SetBackgroundColor 0 15 31
+    SetBorderColor 255 255 255
+    SetFontSize 42
+    PlayAlertSound 1 300
+
+Show # 5Links Rare Items
+    Rarity = Rare
+    LinkedSockets = 5
+    SetTextColor 255 255 119
+    SetBackgroundColor 230 136 73
+    SetBorderColor 255 255 255
+    SetFontSize 42
+    PlayAlertSound 1 300
+
+# Section: 6Links Section
+
+Show # 6Links Normal Items
+    Rarity = Normal
+    LinkedSockets = 6
+    SetTextColor 255 255 255
+    SetBackgroundColor 20 20 20
+    SetBorderColor 180 180 60
+    SetFontSize 42
+    PlayAlertSound 5 300
+
+Show # 6Links Magic Items
+    Rarity = Magic
+    LinkedSockets = 6
+    SetTextColor 136 136 255
+    SetBackgroundColor 0 15 31
+    SetBorderColor 180 180 60
+    SetFontSize 42
+    PlayAlertSound 5 300
+
+Show # 6Links Rare Items
+    Rarity = Rare
+    LinkedSockets = 6
+    SetTextColor 255 255 119
+    SetBackgroundColor 230 136 73
+    SetBorderColor 180 180 60
+    SetFontSize 42
+    PlayAlertSound 5 300
+
+# Section: 5Links & 6Links Unique Items Section
+
+Show # 5Links & 6Links Unique Items
+    Rarity = Unique
+    LinkedSockets >= 5
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: The Shaper Tier 1 Items Section
+	
+Show # THE SHAPER DROP: Infernal Sword - Starforge
+    ItemLevel >= 84
+    Rarity = Unique
+    BaseType "Infernal Sword"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # THE SHAPER DROP: Ruby Flask - Dying Sun
+    ItemLevel >= 84
+    Rarity = Unique
+    BaseType "Ruby Flask"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+	
+# Section: Uber Atziri Tier 1 Items Section
+	
+Show # UBER ATZIRI DROP: Vaal Gauntlets - Atziri's Acuity
+    ItemLevel >= 70
+    Rarity = Unique
+    BaseType "Vaal Gauntlets"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # UBER ATZIRI DROP: Vaal Axe - Atziri's Disfavour
+    ItemLevel >= 70
+    Rarity = Unique
+    BaseType "Vaal Axe"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Helmets Tier 1 Section
+
+Show # HELMET: 60 Ezomyte Burgonet - Abyssus
+    Rarity = Unique
+    BaseType "Ezomyte Burgonet"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+	
+Show # HELMET: 44 Zealot Helmet - Kitava's Thirst
+    Rarity = Unique
+    BaseType "Zealot Helmet"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # HELMET: 55 Ursine Pelt - Rat's Nest
+    Rarity = Unique
+    BaseType "Ursine Pelt"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # HELMET: 67 Nightmare Bascinet - The Bringer of Rain / Devoto's Devotion
+    Rarity = Unique
+    BaseType "Nightmare Bascinet"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # HELMET: 67 Deicide Mask - Heretic's Veil
+    Rarity = Unique
+    BaseType "Deicide Mask"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # HELMET: 69 Hubris Circlet - Crown of Eyes
+    Rarity = Unique
+    BaseType "Hubris Circlet"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Chests Tier 1 Section
+
+Show # CHEST: 65 Gladiator Plate - The Brass Dome Gladiator Plate
+    Rarity = Unique
+    BaseType "Gladiator Plate"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # CHEST: Savant's Robe - Cloak of Tawm'r Isley
+    Rarity = Unique
+    BaseType "Savant's Robe"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # CHEST: 68 Glorious Plate - Kaom's Heart
+    Rarity = Unique
+    BaseType "Glorious Plate"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # CHEST: 68 Assassin's Garb - Cospri's Will Assassin's Garb
+    Rarity = Unique
+    BaseType "Assassin's Garb"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # CHEST: 68 Vaal Regalia - The Beast Fur Shawl Vaal Regalia
+    Rarity = Unique
+    BaseType "Vaal Regalia"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # CHEST: 62 Occultist's Vestment - Shavronne's Wrappings Occultist's Vestment
+    Rarity = Unique
+    BaseType "Occultist's Vestment"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # CHEST: 62 Varnished Coat - Carcass Jack Varnished Coat
+    Rarity = Unique
+    BaseType "Varnished Coat"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # CHEST: 60 Desert Brigandine - Lightning Coil Desert Brigandine
+    Rarity = Unique
+    BaseType "Desert Brigandine"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Gloves Tier 1 Section
+
+Show # GLOVES: 31 Clasped Mitts - Shadows and Dust Clasped Mitts
+    Rarity = Unique
+    BaseType "Clasped Mitts"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # GLOVES: 57 Legion Gloves - Null and Void Legion Gloves
+    Rarity = Unique
+    BaseType "Legion Gloves"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # GLOVES: 21 Deerskin Gloves - Maligaro's Virtuosity Deerskin Gloves
+    Rarity = Unique
+    BaseType "Deerskin Gloves"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # GLOVES: 55 Conjurer Gloves - Voidbringer Conjurer Gloves
+    Rarity = Unique
+    BaseType "Conjurer Gloves"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Boots Tier 1 Section
+
+Show # BOOTS: Rawhide Boots - Seven - League Step
+    Rarity = Unique
+    BaseType "Rawhide Boots"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # BOOTS: 46 Ancient Greaves - Redblade Tramplers Ancient Greaves
+    Rarity = Unique
+    BaseType "Ancient Greaves"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # BOOTS: 67 Sorcerer Boots - Steppan Eard Sorcerer Boots
+    Rarity = Unique
+    BaseType "Sorcerer Boots"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # BOOTS: 42 Serpentscale Boots - Mutewind Whispersteps Serpentscale Boots
+    Rarity = Unique
+    BaseType "Serpentscale Boots"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # BOOTS: 64 Crusader Boots - Death's Door Crusader Boots
+    Rarity = Unique
+    BaseType "Crusader Boots"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # BOOTS: 41 Trapper Boots - Brinerot Whalers Trapper Boots
+    Rarity = Unique
+    BaseType "Trapper Boots"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Rings Tier 1 Section
+
+Show # RING: Gold Ring - Andvarius / Ventor's Gamble
+    Rarity = Unique
+    BaseType "Gold Ring"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # RING: Two - Stone Ring - Berek's Grip / Call of the Brotherhood
+    Rarity = Unique
+    BaseType "Two-Stone Ring"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Amulets Tier 1 Section
+
+Show # AMULET: Citrine Amulet - Daresso's Salute
+    Rarity = Unique
+    BaseType "Citrine Amulet"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # AMULET: Ruby Amulet - Star of Wraeclast
+    Rarity = Unique
+    BaseType "Ruby Amulet"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Flasks Tier 1 Section
+
+Show # FLASK: Stibnite Flask - Witchfire Brew Stibnite Flask
+    Rarity = Unique
+    BaseType "Stibnite Flask"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # FLASK: Hallowed Hybrid Flask - The Writhing Jar
+    Rarity = Unique
+    BaseType "Hallowed Hybrid Flask"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # FLASK: Silver Flask - Kiara's Determination
+    Rarity = Unique
+    BaseType "Silver Flask"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # FLASK: Granite Flask - Lion's Roar / Rumi's Concoction
+    Rarity = Unique
+    BaseType "Granite Flask"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # FLASK: Sapphire Flask - Taste of Hate
+    Rarity = Unique
+    BaseType "Sapphire Flask"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # FLASK: Topaz Flask - Vessel of Vinktar
+    Rarity = Unique
+    BaseType "Topaz Flask"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # FLASK: Sanctified Mana Flask - Lavianga's Spirit
+    Rarity = Unique
+    BaseType "Sanctified Mana Flask"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Shields Tier 1 Section
+
+Show # SHIELD: Corrugated Buckler - Great Old One's Ward
+    Rarity = Unique
+    BaseType "Corrugated Buckler"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # SHIELD: Titanium Spirit Shield - Rathpith Globe
+    Rarity = Unique
+    BaseType "Titanium Spirit Shield"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # SHIELD: Champion Kite Shield - Aegis Aurora
+    Rarity = Unique
+    BaseType "Champion Kite Shield"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Weapons Tier 1 Section
+
+Show # WEAPON: Jewelled Foil - Cospri's Malice Jewelled Foil
+    Rarity = Unique
+    BaseType "Jewelled Foil"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Slaughter Knife - Bino's Kitchen Knife
+    Rarity = Unique
+    BaseType "Slaughter Knife"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Fiend Dagger - The Consuming Dark
+    Rarity = Unique
+    BaseType "Fiend Dagger"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Imperial Skean - Divinarius
+    Rarity = Unique
+    BaseType "Imperial Skean"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Karui Sceptre - Death's Hand
+    Rarity = Unique
+    BaseType "Karui Sceptre"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Karui Maul - Marohi Erqi
+    Rarity = Unique
+    BaseType "Karui Maul"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: War Sword - The Tempestuous Steel
+    Rarity = Unique
+    BaseType "War Sword"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Imperial Staff - Agnerod East / Agnerod North / Agnerod South / Agnerod West
+    Rarity = Unique
+    BaseType "Imperial Staff"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Judgement Staff - Hegemony's Era / Pledge of Hands
+    Rarity = Unique
+    BaseType "Judgement Staff"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Prophecy Wand - Void Battery
+    Rarity = Unique
+    BaseType "Prophecy Wand"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Siege Axe - Soul Taker
+    Rarity = Unique
+    BaseType "Siege Axe"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Jasper Chopper - The Harvest
+    Rarity = Unique
+    BaseType "Jasper Chopper"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Spine Bow - Voltaxic Rift / Reach of the Council
+    Rarity = Unique
+    BaseType "Spine Bow"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # WEAPON: Imperial Bow - Lioneye's Glare / Windripper
+    Rarity = Unique
+    BaseType "Imperial Bow"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: Quivers Tier 1 Section
+
+Show # QUIVER: Penetrating Arrow Quiver - Drillneck
+    Rarity = Unique
+    BaseType "Penetrating Arrow Quiver"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # QUIVER: Broadhead Arrow Quiver - Rearguard
+    Rarity = Unique
+    BaseType "Penetrating Arrow Quiver"
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 255 255 0
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+Show # Unique Items
+    Rarity = Unique
+    SetTextColor 175 96 37
+    SetBackgroundColor 31 15 2
+    SetBorderColor 175 96 37
+    SetFontSize 40
+    PlayAlertSound 1 300
+
+Show # Area Specific Item Bases (Atlas Of Worlds)
+    Rarity < Unique
+    BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+    SetBorderColor 33 163 33
+	SetFontSize 45
+	PlayAlertSound 8 300
+
+# Section: High ilevel Items Section
+	
+Show # Tier 1 i84 items worth picking for crafting purpose
+    ItemLevel >= 84
+    Rarity = Normal
+    BaseType "Titanium Spirit Shield" "Hubris Circlet" "Sorcerer Gloves" "Sorcerer Boots" "Vaal Regalia" "Harbinger Bow" "Vaal Axe" "Maraketh Bow" "Vaal Rapier" "Jewelled Foil" "Profane Wand" "Prophecy Wand" "Coronal Maul" "Sai" "Demon Dagger" "Platinum Kris" "Ambusher" "Eternal Burgonet" "Royal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Dragonscale Boots" "Slink Gloves" "Dragonscale Gauntlets" "Lion Pelt" "Nightmare Bascinet" "Colossal Tower Shield" "Pinnacle Tower Shield" "Belt" "Ring" "Amulet"
+	SetTextColor 210 0 0
+	SetFontSize 25
+	
+Show # Items i84
+    ItemLevel >= 84
+    Rarity = Rare
+    BaseType "Titanium Spirit Shield" "Hubris Circlet" "Sorcerer Gloves" "Sorcerer Boots" "Vaal Regalia" "Harbinger Bow" "Vaal Axe" "Maraketh Bow" "Vaal Rapier" "Jewelled Foil" "Profane Wand" "Prophecy Wand" "Coronal Maul" "Sai" "Demon Dagger" "Platinum Kris" "Ambusher" "Eternal Burgonet" "Royal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Dragonscale Boots" "Slink Gloves" "Dragonscale Gauntlets" "Lion Pelt" "Nightmare Bascinet" "Colossal Tower Shield" "Pinnacle Tower Shield" "Belt" "Ring" "Amulet"
+    SetBorderColor 210 0 0
+
+Show # 6Sockets Items
+    Rarity < Unique
+    Sockets = 6
+    LinkedSockets < 5
+    SetBackgroundColor 33 30 26
+    SetBorderColor 128 119 99
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+Show # Chisel Recipe (20% Hammer + Any Endgame Map)
+    Rarity = Normal
+    BaseType "Gavel" "Stone Hammer" "Rock Breaker"
+    SetBackgroundColor 33 30 26
+    SetBorderColor 128 119 99
+
+Hide # Blacksmith's Whetstones & Armorer's Scraps
+    Quality = 20
+    Rarity = Normal
+    Class "Gloves" "Helmets" "Boots" "Daggers" "Wands" "Claws" "One Hand Swords" "One Hand Maces"
+    SetBackgroundColor 33 30 26
+    SetBorderColor 128 119 99
+
+Hide # Blacksmith's Whetstones & Armorer's Scraps
+    Quality = 20
+    Rarity = Normal
+    BaseType "Spirit Shield" "Buckler" "Spiked Shield"
+    SetBackgroundColor 33 30 26
+    SetBorderColor 128 119 99
+
+Show # Tier 1 Rare items worth picking
+    ItemLevel >= 64
+    Rarity = Rare
+    BaseType "Vaal Rapier" "Jewelled Foil" "Ambusher" "Maraketh Bow" "Coronal Maul" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascine" "Praetor Crown" "Deicide Mask" "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Vaal Regalia" "Pinnacle Tower Shield" "Colossal Tower Shield" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Elegant Round Shield" "Cardinal Round Shield" "Archon Kite Shield" "Supreme Spiked Shield"
+    SetBorderColor 208 32 144
+
+Show # Chromatic Items (Small size only)
+    Rarity < Unique
+    Sockets <= 5
+    LinkedSockets >= 3
+    Height <= 2
+    SocketGroup "RGB"
+    SetTextColor 242 122 125
+    SetBackgroundColor 0 128 0
+    SetBorderColor 30 144 255
+
+Show
+    ItemLevel >= 60
+    ItemLevel < 75
+    Rarity = Rare
+    Class "Ring" "Amulet" "Belt"
+    SetBorderColor 170 158 130
+    SetFontSize 45
+    PlayAlertSound 8 300
+	
+Show
+    ItemLevel >= 60
+    ItemLevel < 75
+    Rarity = Rare
+    SetBorderColor 170 158 130
+
+Show # High ilvl75+ Jewellery
+    ItemLevel >= 75
+    Rarity = Rare
+    Class "Ring" "Amulet" "Belt"
+    SetTextColor 255 255 51
+    SetBackgroundColor 0 0 0
+    SetBorderColor 54 100 146
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 0 0
+    SetBorderColor 54 100 146 216
+
+# !!HIDDEN(not worth for the current league)
+Hide
+    Rarity = Normal
+    BaseType "Spine Bow" "Imperial Bow" "Gold Ring" "Judgement Staff" "Penetrating Arrow Quiver" "Prophecy Wand" "Varnished Coat" "Vaal Regalia" "Agate Amulet" "Glorious Plate" "Assassin's Garb" "Deicide Mask"
+    SetBackgroundColor 31 17 7
+    SetBorderColor 208 32 144
+
+Show # Tier 1 Items worth chancing
+    Rarity = Normal
+    BaseType "Sorcerer Boots" "Occultist's Vestment" "Jewelled Foil" "Sapphire Flask" "Leather Belt"
+    SetBackgroundColor 31 17 7
+    SetBorderColor 208 32 144
+
+Show # Life Flasks (Vendor 40% Total Quality)
+    Quality >= 5
+    Class "Life Flasks"
+    SetTextColor 255 40 0 220
+    SetBackgroundColor 33 30 26
+    SetBorderColor 208 32 144
+	
+Show # Life Flasks
+    Class "Life Flasks"
+    SetTextColor 255 40 0 220
+    SetBackgroundColor 33 30 26
+
+Show # Mana Flasks (Vendor 40% Total Quality)
+    Quality >= 5
+    Class "Mana Flasks"
+    SetTextColor 30 144 255
+    SetBackgroundColor 33 30 26
+    SetBorderColor 208 32 144
+
+Show # Mana Flasks
+    Class "Mana Flasks"
+    SetTextColor 30 144 255
+    SetBackgroundColor 33 30 26
+
+Show # Quicksilver Flasks (Vendor 40% Total Quality)
+    Quality >= 5
+    BaseType "Quicksilver Flask"
+    SetTextColor 74 230 58
+    SetBackgroundColor 0 0 0
+    SetBorderColor 208 32 144
+
+Show # Quicksilver Flasks
+    BaseType "Quicksilver Flask"
+    SetTextColor 74 230 58
+    SetBackgroundColor 0 0 0
+
+Show # Utility Flasks (Vendor 40% Total Quality)
+    Quality >= 5
+    Class "Utility Flasks"
+    SetTextColor 231 180 120
+    SetBackgroundColor 0 0 0
+    SetBorderColor 208 32 144
+
+Show # Utility Flasks
+    Class "Utility Flasks"
+    SetTextColor 231 180 120
+    SetBackgroundColor 0 0 0
+
+# Shows 3L & 4Links Gear for Leveling, Stops Showing At End of Normal Difficulty
+Show
+    ItemLevel <= 32
+    LinkedSockets >= 3
+    SetBorderColor 184 218 242
+	
+# Shows All Rings, Amulets and Belts for Leveling, Stops Showing At End of Normal Difficulty
+Show
+    ItemLevel <= 32
+    Class "Ring" "Amulet" "Belt"
+    SetBorderColor 184 218 242
+
+# Show All Other Rares
+Show
+    Rarity >= Rare
+
+# Gems
+Show
+    Class "Gems"
+
+# LEVELING WHITE/MAGIC ITEM PROGRESSION
+Show
+    ItemLevel < 12
+
+Hide
+    ItemLevel < 13
+    DropLevel >= 2
+    Rarity = Normal
+
+Hide
+    ItemLevel < 14
+    DropLevel >= 4
+    Rarity = Normal
+
+Hide
+    ItemLevel < 16
+    DropLevel >= 6
+    Rarity >= Normal
+
+Hide
+    ItemLevel < 18
+    DropLevel >= 8
+    Rarity = Normal
+
+Hide
+    ItemLevel < 20
+    DropLevel >= 10
+    Rarity = Normal
+
+Hide
+    ItemLevel < 22
+    DropLevel >= 13
+    Rarity = Normal
+
+Hide
+    ItemLevel < 24
+    DropLevel >= 16
+    Rarity = Normal
+
+Hide
+    ItemLevel < 26
+    DropLevel >= 18
+    Rarity = Normal
+
+Hide
+    ItemLevel < 28
+    DropLevel >= 20
+    Rarity = Normal
+
+Hide
+    ItemLevel < 30
+    DropLevel >= 22
+    Rarity >= Normal
+    SetFontSize 34
+
+Hide
+    ItemLevel < 32
+    DropLevel >= 24
+    Rarity >= Normal
+    SetFontSize 34
+
+Hide
+    ItemLevel < 34
+    DropLevel >= 26
+    Rarity >= Normal
+    SetFontSize 33
+
+Hide
+    ItemLevel < 36
+    DropLevel >= 30
+    Rarity >= Normal
+    SetFontSize 33
+
+Hide
+    ItemLevel < 38
+    DropLevel >= 32
+    Rarity >= Normal
+    SetFontSize 32
+
+Hide
+    ItemLevel < 40
+    DropLevel >= 34
+    Rarity >= Normal
+    SetFontSize 32
+
+Hide
+    ItemLevel < 42
+    DropLevel >= 35
+    Rarity >= Normal
+    SetFontSize 31
+
+Hide
+    ItemLevel < 46
+    DropLevel >= 40
+    Rarity >= Normal
+    SetFontSize 31
+
+Hide
+    ItemLevel < 48
+    DropLevel >= 42
+    Rarity >= Normal
+    SetFontSize 30
+
+Hide
+    ItemLevel < 50
+    DropLevel >= 44
+    Rarity >= Normal
+    SetFontSize 30
+
+Hide
+    ItemLevel < 52
+    DropLevel >= 46
+    Rarity >= Normal
+    SetFontSize 30
+
+Hide
+    ItemLevel < 54
+    DropLevel >= 48
+    Rarity >= Normal
+    SetFontSize 30
+
+Hide
+    ItemLevel < 56
+    DropLevel >= 52
+    Rarity >= Normal
+    SetFontSize 30
+
+Hide
+    ItemLevel < 58
+    DropLevel >= 54
+    Rarity >= Normal
+    SetFontSize 30
+
+Hide
+    ItemLevel < 60
+    DropLevel >= 56
+    Rarity >= Normal
+    SetFontSize 30
+
+Hide
+    ItemLevel < 62
+    DropLevel >= 58
+    Rarity >= Normal
+    SetFontSize 30
+
+Hide
+    ItemLevel < 64
+    DropLevel >= 60
+    Rarity >= Normal
+    SetFontSize 30
+
+Hide
+    ItemLevel < 66
+    DropLevel >= 62
+    Rarity >= Normal
+    SetFontSize 30
+
+Hide
+    ItemLevel < 68
+    DropLevel >= 64
+    Rarity >= Normal
+    SetFontSize 30
+
+# Hide Everything Else of Little to No Value
+Hide
+    SetBackgroundColor 17 17 17 100
+    SetFontSize 26
+
